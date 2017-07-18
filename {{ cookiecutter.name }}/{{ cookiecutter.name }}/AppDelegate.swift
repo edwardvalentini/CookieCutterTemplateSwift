@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  {{ cookiecutter.name }}
 //
-//  Created by {{ cookiecutter.full_name }} on {% now 'local', '%d/%m/%Y' %}.
+//  Created by {{ cookiecutter.full_name }} on {% now 'local', '%m/%d/%Y' %}.
 //  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
