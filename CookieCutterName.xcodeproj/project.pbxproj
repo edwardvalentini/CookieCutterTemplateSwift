@@ -350,6 +350,7 @@
 		2B6955DA1F1EA9F90003D973 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
 				INFOPLIST_FILE = CookieCutterName/Info.plist;
@@ -364,6 +365,7 @@
 		2B6955DB1F1EA9F90003D973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
 				INFOPLIST_FILE = CookieCutterName/Info.plist;
@@ -378,7 +380,7 @@
 		2B6955DD1F1EA9F90003D973 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
 				INFOPLIST_FILE = CookieCutterNameTests/Info.plist;
@@ -394,7 +396,7 @@
 		2B6955DE1F1EA9F90003D973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
 				INFOPLIST_FILE = CookieCutterNameTests/Info.plist;
@@ -426,6 +428,7 @@
 				2B6955DB1F1EA9F90003D973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6955DC1F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "CookieCutterNameTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +437,7 @@
 				2B6955DE1F1EA9F90003D973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
