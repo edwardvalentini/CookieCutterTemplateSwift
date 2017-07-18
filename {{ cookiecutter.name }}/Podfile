@@ -6,7 +6,6 @@ use_frameworks!
 def reusepods
     pod 'Alamofire'
     pod 'Moya'
-    pod 'Nuke'
 end
 
 def testpods
