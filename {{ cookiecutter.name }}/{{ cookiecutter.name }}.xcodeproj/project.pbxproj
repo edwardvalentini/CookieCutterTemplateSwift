@@ -142,7 +142,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = {{ cookiecutter.organization_name }} ;
+				ORGANIZATIONNAME = "{{ cookiecutter.organization_name }}" ;
 				TargetAttributes = {
 					2B6955BB1F1EA9F90003D973 = {
 						CreatedOnToolsVersion = 9.0;
