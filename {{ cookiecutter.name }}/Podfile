@@ -14,11 +14,11 @@ def testpods
   pod 'Quick', '~> 1'
 end
 
-target 'CookieCutterName' do
+target '{{ cookiecutter.name }}' do
   reusepods
 end
 
-target 'CookieCutterNameTests' do
+target '{{ cookiecutter.testname }}' do
   reusepods
   testpods
 end

@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  CookieCutterName
+//  {{ cookiecutter.name }}
 //
-//  Created by Edward Valentini on 7/18/17.
-//  Copyright © 2017 CookieCutterOrganization. All rights reserved.
+//  Created by {{ cookiecutter.full_name }} on {% now 'local', '%d/%m/%Y' %}.
+//  Copyright © 2017 {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
 import UIKit
@@ -22,4 +22,3 @@ class ViewController: UIViewController {
 
 
 }
-

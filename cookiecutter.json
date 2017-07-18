@@ -1,0 +1,9 @@
+{
+	"name" : "NewProject",
+	"loweredname" : "{{ cookiecutter.name | replace(' ', '-') | lower }}",
+	"testname" : "{{ cookiecutter.name }}Tests",
+	"organization_name" : "Octofly, LLC",
+	"bundle_identifier" : "com.octofly.{{ cookiecutter.name | replace(' ', '-') | lower }}",
+	"bundle_identifier_test" : "com.octofly.{{ cookiecutter.name | replace(' ', '-') | lower }}test",
+	"full_name": "Edward Valentini"
+}

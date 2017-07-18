@@ -12,7 +12,7 @@
 		2B6955C51F1EA9F90003D973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C31F1EA9F90003D973 /* Main.storyboard */; };
 		2B6955C71F1EA9F90003D973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C61F1EA9F90003D973 /* Assets.xcassets */; };
 		2B6955CA1F1EA9F90003D973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C81F1EA9F90003D973 /* LaunchScreen.storyboard */; };
-		2B6955D51F1EA9F90003D973 /* CookieCutterNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6955D41F1EA9F90003D973 /* CookieCutterNameTests.swift */; };
+		2B6955D51F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6955D41F1EA9F90003D973 /* CookieCutterNameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +26,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B6955BC1F1EA9F90003D973 /* CookieCutterName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCutterName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6955BC1F1EA9F90003D973 /* {{ cookiecutter.name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCutterName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6955BF1F1EA9F90003D973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B6955C11F1EA9F90003D973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B6955C41F1EA9F90003D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B6955C61F1EA9F90003D973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B6955C91F1EA9F90003D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B6955CB1F1EA9F90003D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B6955D01F1EA9F90003D973 /* CookieCutterNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCutterNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B6955D41F1EA9F90003D973 /* CookieCutterNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCutterNameTests.swift; sourceTree = "<group>"; };
+		2B6955D01F1EA9F90003D973 /* {{ cookiecutter.testname }}.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCutterNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCutterNameTests.swift; sourceTree = "<group>"; };
 		2B6955D61F1EA9F90003D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,8 +59,8 @@
 		2B6955B31F1EA9F90003D973 = {
 			isa = PBXGroup;
 			children = (
-				2B6955BE1F1EA9F90003D973 /* CookieCutterName */,
-				2B6955D31F1EA9F90003D973 /* CookieCutterNameTests */,
+				2B6955BE1F1EA9F90003D973 /* {{ cookiecutter.name }} */,
+				2B6955D31F1EA9F90003D973 /* {{ cookiecutter.testname }} */,
 				2B6955BD1F1EA9F90003D973 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		2B6955BD1F1EA9F90003D973 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B6955BC1F1EA9F90003D973 /* CookieCutterName.app */,
-				2B6955D01F1EA9F90003D973 /* CookieCutterNameTests.xctest */,
+				2B6955BC1F1EA9F90003D973 /* {{ cookiecutter.name }}.app */,
+				2B6955D01F1EA9F90003D973 /* {{ cookiecutter.testname }}.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B6955BE1F1EA9F90003D973 /* CookieCutterName */ = {
+		2B6955BE1F1EA9F90003D973 /* {{ cookiecutter.name }} */ = {
 			isa = PBXGroup;
 			children = (
 				2B6955BF1F1EA9F90003D973 /* AppDelegate.swift */,
@@ -87,10 +87,10 @@
 			path = CookieCutterName;
 			sourceTree = "<group>";
 		};
-		2B6955D31F1EA9F90003D973 /* CookieCutterNameTests */ = {
+		2B6955D31F1EA9F90003D973 /* {{ cookiecutter.testname }} */ = {
 			isa = PBXGroup;
 			children = (
-				2B6955D41F1EA9F90003D973 /* CookieCutterNameTests.swift */,
+				2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */,
 				2B6955D61F1EA9F90003D973 /* Info.plist */,
 			);
 			path = CookieCutterNameTests;
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B6955BB1F1EA9F90003D973 /* CookieCutterName */ = {
+		2B6955BB1F1EA9F90003D973 /* {{ cookiecutter.name }} */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B6955D91F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "CookieCutterName" */;
+			buildConfigurationList = 2B6955D91F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}" */;
 			buildPhases = (
 				2B6955B81F1EA9F90003D973 /* Sources */,
 				2B6955B91F1EA9F90003D973 /* Frameworks */,
@@ -111,14 +111,14 @@
 			);
 			dependencies = (
 			);
-			name = CookieCutterName;
-			productName = CookieCutterName;
-			productReference = 2B6955BC1F1EA9F90003D973 /* CookieCutterName.app */;
+			name = {{ cookiecutter.name }};
+			productName = {{ cookiecutter.name }};
+			productReference = 2B6955BC1F1EA9F90003D973 /* {{ cookiecutter.name }}.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B6955CF1F1EA9F90003D973 /* CookieCutterNameTests */ = {
+		2B6955CF1F1EA9F90003D973 /* {{ cookiecutter.testname }} */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B6955DC1F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "CookieCutterNameTests" */;
+			buildConfigurationList = 2B6955DC1F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.testname }}" */;
 			buildPhases = (
 				2B6955CC1F1EA9F90003D973 /* Sources */,
 				2B6955CD1F1EA9F90003D973 /* Frameworks */,
@@ -129,9 +129,9 @@
 			dependencies = (
 				2B6955D21F1EA9F90003D973 /* PBXTargetDependency */,
 			);
-			name = CookieCutterNameTests;
-			productName = CookieCutterNameTests;
-			productReference = 2B6955D01F1EA9F90003D973 /* CookieCutterNameTests.xctest */;
+			name = {{ cookiecutter.testname }} ;
+			productName = {{ cookiecutter.testname }} ;
+			productReference = 2B6955D01F1EA9F90003D973 /* {{ cookiecutter.testname }} .xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = CookieCutterOrganization;
+				ORGANIZATIONNAME = {{ cookiecutter.organization_name }} ;
 				TargetAttributes = {
 					2B6955BB1F1EA9F90003D973 = {
 						CreatedOnToolsVersion = 9.0;
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B6955B71F1EA9F90003D973 /* Build configuration list for PBXProject "CookieCutterName" */;
+			buildConfigurationList = 2B6955B71F1EA9F90003D973 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B6955BB1F1EA9F90003D973 /* CookieCutterName */,
-				2B6955CF1F1EA9F90003D973 /* CookieCutterNameTests */,
+				2B6955BB1F1EA9F90003D973 /* {{ cookiecutter.name }} */,
+				2B6955CF1F1EA9F90003D973 /* {{ cookiecutter.testname }} */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6955D51F1EA9F90003D973 /* CookieCutterNameTests.swift in Sources */,
+				2B6955D51F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		2B6955D21F1EA9F90003D973 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B6955BB1F1EA9F90003D973 /* CookieCutterName */;
+			target = 2B6955BB1F1EA9F90003D973 /* {{ cookiecutter.name }} */;
 			targetProxy = 2B6955D11F1EA9F90003D973 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,9 +353,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
-				INFOPLIST_FILE = CookieCutterName/Info.plist;
+				INFOPLIST_FILE = {{ cookiecutter.name }}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookiecutterdomain.CookieCutterName;
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,9 +368,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
-				INFOPLIST_FILE = CookieCutterName/Info.plist;
+				INFOPLIST_FILE = {{ cookiecutter.name }}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookiecutterdomain.CookieCutterName;
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,13 +383,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
-				INFOPLIST_FILE = CookieCutterNameTests/Info.plist;
+				INFOPLIST_FILE = {{ cookiecutter.testname }}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookiecutterdomain.CookieCutterNameTests;
+				PRODUCT_BUNDLE_IDENTIFIER =  {{ cookiecutter.bundle_identifier_test }};
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieCutterName.app/CookieCutterName";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.name }}.app/{{ cookiecutter.name }}";
 			};
 			name = Debug;
 		};
@@ -399,20 +399,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z3Z6CE55X9;
-				INFOPLIST_FILE = CookieCutterNameTests/Info.plist;
+				INFOPLIST_FILE = {{ cookiecutter.testname }}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cookiecutterdomain.CookieCutterNameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier_test }};
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieCutterName.app/CookieCutterName";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.name }}.app/{{ cookiecutter.name }}";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B6955B71F1EA9F90003D973 /* Build configuration list for PBXProject "CookieCutterName" */ = {
+		2B6955B71F1EA9F90003D973 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B6955D71F1EA9F90003D973 /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B6955D91F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "CookieCutterName" */ = {
+		2B6955D91F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B6955DA1F1EA9F90003D973 /* Debug */,
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B6955DC1F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "CookieCutterNameTests" */ = {
+		2B6955DC1F1EA9F90003D973 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.testname }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B6955DD1F1EA9F90003D973 /* Debug */,
