@@ -4,13 +4,11 @@ inhibit_all_warnings!
 use_frameworks!
 
 def reusepods
-    pod 'Alamofire'
-    pod 'Moya'
 end
 
 def testpods
-  pod 'Nimble', '~> 5'
-  pod 'Quick', '~> 1'
+  pod 'Nimble'
+  pod 'Quick'
 end
 
 target '{{ cookiecutter.name }}' do
