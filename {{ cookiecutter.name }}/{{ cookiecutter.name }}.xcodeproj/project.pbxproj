@@ -12,7 +12,7 @@
 		2B6955C51F1EA9F90003D973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C31F1EA9F90003D973 /* Main.storyboard */; };
 		2B6955C71F1EA9F90003D973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C61F1EA9F90003D973 /* Assets.xcassets */; };
 		2B6955CA1F1EA9F90003D973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6955C81F1EA9F90003D973 /* LaunchScreen.storyboard */; };
-		2B6955D51F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6955D41F1EA9F90003D973 /* CookieCutterNameTests.swift */; };
+		2B6955D51F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,20 +21,20 @@
 			containerPortal = 2B6955B41F1EA9F90003D973 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2B6955BB1F1EA9F90003D973;
-			remoteInfo = CookieCutterName;
+			remoteInfo = {{ cookiecutter.name }};
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B6955BC1F1EA9F90003D973 /* {{ cookiecutter.name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCutterName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6955BC1F1EA9F90003D973 /* {{ cookiecutter.name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{ cookiecutter.name }}.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6955BF1F1EA9F90003D973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B6955C11F1EA9F90003D973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B6955C41F1EA9F90003D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B6955C61F1EA9F90003D973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B6955C91F1EA9F90003D973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B6955CB1F1EA9F90003D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B6955D01F1EA9F90003D973 /* {{ cookiecutter.testname }}.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCutterNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCutterNameTests.swift; sourceTree = "<group>"; };
+		2B6955D01F1EA9F90003D973 /* {{ cookiecutter.testname }}.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{ cookiecutter.testname }}.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.testname }}.swift; sourceTree = "<group>"; };
 		2B6955D61F1EA9F90003D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 				2B6955C81F1EA9F90003D973 /* LaunchScreen.storyboard */,
 				2B6955CB1F1EA9F90003D973 /* Info.plist */,
 			);
-			path = CookieCutterName;
+			path = {{ cookiecutter.name }};
 			sourceTree = "<group>";
 		};
 		2B6955D31F1EA9F90003D973 /* {{ cookiecutter.testname }} */ = {
@@ -93,7 +93,7 @@
 				2B6955D41F1EA9F90003D973 /* {{ cookiecutter.testname }}.swift */,
 				2B6955D61F1EA9F90003D973 /* Info.plist */,
 			);
-			path = CookieCutterNameTests;
+			path = {{ cookiecutter.testname }};
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
